@@ -1,0 +1,111 @@
+@media screen and (max-width: 767px) {
+
+    .header__search {
+      display: none !important;
+      width: auto !important;
+    }
+  
+    .playlist-container {
+      width: 100% !important; /* Ocupa toda a largura disponível */
+      height: auto !important; /* Altura automática, ajusta conforme o conteúdo */
+    }
+  
+    .sidebar {
+      width: 100% !important;
+      float: none !important;
+      margin: 0 !important;
+      position: relative !important;
+    }
+
+    .main-container {
+      width: 100% !important;
+      float: none !important;
+      margin: 0 !important;
+
+    }
+  
+    .offer__list-item {
+      grid-template-columns: 1fr 1fr !important;
+    }
+  
+    .offer__scroll-container {
+      overflow-y: visible !important;
+    }
+
+    
+  }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+  .sidebar {
+    width: 100% !important;
+    float: none !important;
+    margin: 0 !important;
+    position: relative !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .sidebar_navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .sidebar_navigation ul , .sidebar_navigation li{
+    display: flex !important;
+    flex-direction: row !important;
+    padding: 0 !important;
+    margin: 0.75rem 3.125rem !important;
+
+  }
+
+  .section-playlist{
+    justify-content: center;
+  }
+  .section-playlist__content {
+    height: 3rem !important;
+    display: flex !important;
+    flex-direction: row !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    align-items: center !important;
+
+  }
+  .section-playlist__content span{
+    padding: 0 !important;
+    margin: 0 1.5rem !important;
+  }
+  .section-playlist__content button{
+    width: 8rem !important;
+    padding: 0 !important;
+    margin: 0 1.5rem !important;
+  }
+
+  .main-container {
+    width: 100% !important;
+    float: none !important;
+    margin: 0 !important;
+
+  }
+
+
+  
+    .header__login .subscribe {
+      font-size: 12px !important;
+      padding: 10px !important;
+      margin-right: 5px !important;
+    }
+  
+    .offer__list-item {
+      grid-template-columns: 1fr 1fr 1fr !important;
+    }
+
+  }
+  
+  @media screen and (min-width: 992px) {
+    .offer__list-item {
+      grid-template-columns: 1fr 1fr 1fr 1fr !important;
+    } 
+  }
+
+ 

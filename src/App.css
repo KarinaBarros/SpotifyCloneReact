@@ -1,0 +1,21 @@
+body {
+  background-color: #000;
+  font: var(--font-dm-sans);
+}
+
+:root{
+  /* FONT */
+  --font-dm-sans: "DM Sans", sans-serif;
+
+  /* COLORS */
+  --bg-icon: #131313;
+  --bg-arrow-color: rgba(0,0,07);
+  --bg-header1: #121212;
+  --bg-header2: #242424;
+
+  --text-base-light: #fff;
+  --text-sub: #a7a7a7;
+  --text-base-dark: #000;
+  --text-base-gray: #b3b3b3;
+
+}
